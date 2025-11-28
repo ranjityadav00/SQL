@@ -30,6 +30,7 @@ The dataset contained rich attributes:
 - Query structuring for readability
 
 📊 Sample Queries
+
 -- Top 10 best-selling games globally
 SELECT game_title, SUM(global_sales) AS total_sales
 FROM video_game_sales
